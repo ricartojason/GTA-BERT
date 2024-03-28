@@ -19,7 +19,11 @@
 
 ## 数据集说明：
 数据集保存路径为/dataset
+
 review_origin_train.scv是原始训练集
+
 review_origin_test.scv是原始测试集
+
 带有TTA前缀的数据集都是GPT for Test-Time augmentation（TTA）生成的样本
+
 运行TTA需要在run_bert.py中将data.read_data()的is_augament参数设置为True
