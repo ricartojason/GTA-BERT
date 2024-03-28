@@ -1,9 +1,9 @@
 # GTA-BERT
 一种使用改进的BERT模型进行非功能需求多标签分类的方法（A NFRs Multi Label Classification Method Using Enhanced Bert)
 
-##运行说明：
+## 运行说明：
 运行项目首先需要在[Bert-base](https://huggingface.co/google-bert/bert-base-uncased/tree/main)中下载pytorch_model.bin, config.json, vocab.txt.
--`bert-base-uncased-pytorch_model.bin` 修改名字为 `pytorch_model.bin`
+- `bert-base-uncased-pytorch_model.bin` 修改名字为 `pytorch_model.bin`
 - `bert-base-uncased-config.json` 修改名字为 `config.json`
 - `bert-base-uncased-vocab.txt` 修改名字为 `bert_vocab.txt`
 并将上述文件存放到pretrain\bert\base-uncansed中。
@@ -17,7 +17,7 @@
 运行`python run_bert.py --do_train --save_best --do_lower_case`运行、微调模型
 运行`run_bert.py --do_test --do_lower_case`在测试集上评估效果
 
-##数据集说明：
+## 数据集说明：
 数据集保存路径为/dataset
 review_origin_train.scv是原始训练集
 review_origin_test.scv是原始测试集
