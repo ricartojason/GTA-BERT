@@ -4,8 +4,8 @@ BASE_DIR = Path('pybert')
 config = {
     'raw_data_path': BASE_DIR/r'dataset/review_origin_train.csv',
     'test_path': BASE_DIR/r'dataset/review_origin_test.csv',
-    'aug_data_path': BASE_DIR/r'dataset/TTA_ALL .csv',
-    'aug_test_path': BASE_DIR/r'dataset/TTA_ALL_Test.csv',
+    'aug_data_path': BASE_DIR/r'dataset/TTA_Per.csv',
+    'aug_test_path': BASE_DIR/r'dataset/TTA_Test.csv',
 
     'data_dir': BASE_DIR/r"dataset",
     'log_dir': BASE_DIR/r'output/log',
