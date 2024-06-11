@@ -28,6 +28,8 @@ MNR_Data is the training set after integrating the new dataset, while MNR_Test i
 
 review_single_table is the MNR-1 relabelled as a single-label dataset
 
+In the Labelled datasets folder, we annotated 4600 reviews of 8 apps in the Quim Motger dataset, which we refer to in this paper as MNR-4
+
 带有TTA前缀的数据集都是GPT for Test-Time augmentation（TTA）生成的样本
 
 运行TTA需要在run_bert.py中将data.read_data()的is_augament参数设置为True
