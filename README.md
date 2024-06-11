@@ -24,6 +24,10 @@ review_origin_train.scv是原始训练集
 
 review_origin_test.scv是原始测试集
 
+MNR_Data is the training set after integrating the new dataset, while MNR_Test is the test set after integrating the new dataset
+
+review_single_table is the MNR-1 relabelled as a single-label dataset
+
 带有TTA前缀的数据集都是GPT for Test-Time augmentation（TTA）生成的样本
 
 运行TTA需要在run_bert.py中将data.read_data()的is_augament参数设置为True
