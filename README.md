@@ -6,7 +6,7 @@
 
 2.Place `model` ,`config` and `vocab` file into  the `/pybert/pretrain/bert/base-uncased` directory.
 
-3.Download dataset in this github(https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) and place in `pybert/dataset`.
+3.Download dataset in this github(https://github.com/ricartojason/GTA-BERT/tree/main/Dataset) and place in `pybert/dataset`.
 
 4./configs/basic_config is used to change the model parameters and the path where the dataset is stored
 
