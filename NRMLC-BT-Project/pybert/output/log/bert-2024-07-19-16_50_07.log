@@ -1,0 +1,328 @@
+Training/evaluation parameters Namespace(adam_epsilon=1e-08, arch='bert', data_name='BERT-TEXTCNN', do_data=False, do_lower_case=True, do_test=False, do_train=True, epochs=6, eval_batch_size=4, eval_max_seq_len=128, fp16=False, fp16_opt_level='O1', grad_clip=1.0, gradient_accumulation_steps=1, learning_rate=1e-05, local_rank=-1, loss_scale=0, mode='min', monitor='valid_loss', n_gpu='0', predict_checkpoints=0, resume_path='', save_best=True, seed=42, sorted=1, train_batch_size=4, train_max_seq_len=128, valid_size=0.3, warmup_proportion=0.1, weight_decay=0.01)
+Saving examples into cached file pybert/dataset/cached_train_examples_bert
+*** Example ***
+guid: train-0
+tokens: [CLS] this app is just great . i have all my favorite songs on here and it ' s so easy to import more songs . [SEP]
+input_ids: 101 2023 10439 2003 2074 2307 1012 1045 2031 2035 2026 5440 2774 2006 2182 1998 2009 1005 1055 2061 3733 2000 12324 2062 2774 1012 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+*** Example ***
+guid: train-1
+tokens: [CLS] this is an amazing app . well worth the cost , even for the most casual user . [SEP]
+input_ids: 101 2023 2003 2019 6429 10439 1012 2092 4276 1996 3465 1010 2130 2005 1996 2087 10017 5310 1012 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Saving features into cached file pybert/dataset/cached_train_features_128_bert
+sorted data by th length of input
+Saving examples into cached file pybert/dataset/cached_valid_examples_bert
+*** Example ***
+guid: valid-0
+tokens: [CLS] this makes my french study so easy , fun , and vi ##te . glad i found it . [SEP]
+input_ids: 101 2023 3084 2026 2413 2817 2061 3733 1010 4569 1010 1998 6819 2618 1012 5580 1045 2179 2009 1012 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+input_mask: 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+*** Example ***
+guid: valid-1
+tokens: [CLS] terrific app a great resource . [SEP]
+input_ids: 101 27547 10439 1037 2307 7692 1012 102 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+input_mask: 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+segment_ids: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Saving features into cached file pybert/dataset/cached_valid_features_128_bert
+initializing model
+loading configuration file pybert/pretrain/bert/base-uncased/config.json
+Model config BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": null,
+  "do_sample": false,
+  "eos_token_ids": null,
+  "finetuning_task": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1
+  },
+  "layer_norm_eps": 1e-12,
+  "length_penalty": 1.0,
+  "max_length": 20,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_beams": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 4,
+  "num_return_sequences": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "pruned_heads": {},
+  "repetition_penalty": 1.0,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0,
+  "torchscript": false,
+  "transformers_version": "4.6.0.dev0",
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+loading weights file pybert/pretrain/bert/base-uncased/pytorch_model.bin
+Weights of BertForMultiLable not initialized from pretrained model: ['conv1.weight', 'conv1.bias', 'conv2.weight', 'conv2.bias', 'conv3.weight', 'conv3.bias', 'linear.weight', 'linear.bias']
+Weights from pretrained model not used in BertForMultiLable: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+initializing callbacks
+***** Running training *****
+  Num examples = 4683
+  Num Epochs = 6
+  Total train batch size (w. parallel, distributed & accumulation) = 4
+  Gradient Accumulation steps = 1
+  Total optimization steps = 7026
+Epoch 1/6
+Label: Usa - AUC: 0.6603, Hamming Loss: 0.3063, Hamming Score: 0.1593, Precision: 0.6922, Recall: 0.6603, F1 Score: 0.5969
+Label: Sup - AUC: 0.6518, Hamming Loss: 0.2511, Hamming Score: 0.0651, Precision: 0.5432, Recall: 0.6518, F1 Score: 0.4982
+Label: Dep - AUC: 0.6947, Hamming Loss: 0.2911, Hamming Score: 0.1444, Precision: 0.6751, Recall: 0.6947, F1 Score: 0.6063
+Label: Per - AUC: 0.7059, Hamming Loss: 0.2637, Hamming Score: 0.1194, Precision: 0.6002, Recall: 0.7059, F1 Score: 0.6002
+              precision    recall  f1-score   support
+
+         Usa       0.55      0.02      0.04       780
+         Sup       0.05      0.01      0.01       335
+         Dep       0.28      0.11      0.16       702
+         Per       0.00      0.00      0.00       566
+
+   micro avg       0.28      0.04      0.07      2383
+   macro avg       0.22      0.04      0.05      2383
+weighted avg       0.27      0.04      0.06      2383
+ samples avg       0.02      0.02      0.02      2383
+
+Label: Usa - AUC: 0.5444, Hamming Loss: 0.2463, Hamming Score: 0.0468, Precision: 0.7914, Recall: 0.5444, F1 Score: 0.5399
+Label: Sup - AUC: 0.7290, Hamming Loss: 0.1800, Hamming Score: 0.0523, Precision: 0.9611, Recall: 0.7290, F1 Score: 0.6417
+Label: Dep - AUC: 0.7572, Hamming Loss: 0.2255, Hamming Score: 0.1121, Precision: 0.9192, Recall: 0.7572, F1 Score: 0.7169
+Label: Per - AUC: 0.7561, Hamming Loss: 0.1879, Hamming Score: 0.0708, Precision: 0.9522, Recall: 0.7561, F1 Score: 0.7353
+              precision    recall  f1-score   support
+
+         Usa       0.00      0.00      0.00       338
+         Sup       0.00      0.00      0.00       158
+         Dep       0.66      0.31      0.42       331
+         Per       1.00      0.02      0.03       239
+
+   micro avg       0.67      0.10      0.17      1066
+   macro avg       0.42      0.08      0.11      1066
+weighted avg       0.43      0.10      0.14      1066
+ samples avg       0.05      0.05      0.05      1066
+
+
+Epoch: 1 -  loss: 0.3940 - accuracy: 0.8729 - auc: 0.6900 - precision: 0.2387 - recall: 0.9544 - hamming_score: 0.1390 - hamming_loss: 0.2372 - f1: 0.3336 - jac: 0.2036 - valid_loss: 0.3505 - valid_accuracy: 0.8804 - valid_auc: 0.7407 - valid_precision: 0.7471 - valid_recall: 0.5541 - valid_hamming_score: 0.1415 - valid_hamming_loss: 0.1566 - valid_f1: 0.4214 - valid_jac: 0.2756 
+
+Epoch 1: valid_loss improved from inf to 0.35052
+Configuration saved in pybert/output/checkpoints/bert/config.json
+Model weights saved in pybert/output/checkpoints/bert/pytorch_model.bin
+Epoch 2/6
+Label: Usa - AUC: 0.7739, Hamming Loss: 0.2502, Hamming Score: 0.1565, Precision: 0.8988, Recall: 0.7739, F1 Score: 0.7410
+Label: Sup - AUC: 0.7753, Hamming Loss: 0.1811, Hamming Score: 0.0638, Precision: 0.9643, Recall: 0.7753, F1 Score: 0.7239
+Label: Dep - AUC: 0.8332, Hamming Loss: 0.2225, Hamming Score: 0.1401, Precision: 0.9251, Recall: 0.8332, F1 Score: 0.7834
+Label: Per - AUC: 0.9231, Hamming Loss: 0.1731, Hamming Score: 0.1174, Precision: 0.9468, Recall: 0.9231, F1 Score: 0.8981
+              precision    recall  f1-score   support
+
+         Usa       0.75      0.32      0.44       780
+         Sup       0.79      0.17      0.28       335
+         Dep       0.77      0.44      0.56       702
+         Per       0.96      0.46      0.62       566
+
+   micro avg       0.81      0.37      0.50      2383
+   macro avg       0.82      0.35      0.48      2383
+weighted avg       0.81      0.37      0.50      2383
+ samples avg       0.18      0.17      0.18      2383
+
+Label: Usa - AUC: 0.7039, Hamming Loss: 0.2329, Hamming Score: 0.1036, Precision: 0.7698, Recall: 0.7039, F1 Score: 0.7090
+Label: Sup - AUC: 0.7856, Hamming Loss: 0.1609, Hamming Score: 0.0553, Precision: 0.9634, Recall: 0.7856, F1 Score: 0.7680
+Label: Dep - AUC: 0.8001, Hamming Loss: 0.1995, Hamming Score: 0.1256, Precision: 0.9184, Recall: 0.8001, F1 Score: 0.7999
+Label: Per - AUC: 0.9217, Hamming Loss: 0.1571, Hamming Score: 0.1056, Precision: 0.9634, Recall: 0.9217, F1 Score: 0.9240
+              precision    recall  f1-score   support
+
+         Usa       0.66      0.30      0.41       338
+         Sup       0.93      0.16      0.28       158
+         Dep       0.80      0.47      0.59       331
+         Per       0.97      0.55      0.70       239
+
+   micro avg       0.81      0.39      0.53      1066
+   macro avg       0.84      0.37      0.50      1066
+weighted avg       0.81      0.39      0.51      1066
+ samples avg       0.21      0.19      0.20      1066
+
+
+Epoch: 2 -  loss: 0.3066 - accuracy: 0.9158 - auc: 0.8253 - precision: 0.8649 - recall: 0.9346 - hamming_score: 0.2654 - hamming_loss: 0.1610 - f1: 0.6276 - jac: 0.4707 - valid_loss: 0.2569 - valid_accuracy: 0.9145 - valid_auc: 0.8035 - valid_precision: 0.8636 - valid_recall: 0.7416 - valid_hamming_score: 0.2609 - valid_hamming_loss: 0.1323 - valid_f1: 0.6514 - valid_jac: 0.4999 
+
+Epoch 2: valid_loss improved from 0.35052 to 0.25690
+Configuration saved in pybert/output/checkpoints/bert/config.json
+Model weights saved in pybert/output/checkpoints/bert/pytorch_model.bin
+Epoch 3/6
+Label: Usa - AUC: 0.8626, Hamming Loss: 0.1958, Hamming Score: 0.1565, Precision: 0.9244, Recall: 0.8626, F1 Score: 0.8396
+Label: Sup - AUC: 0.8504, Hamming Loss: 0.1579, Hamming Score: 0.0651, Precision: 0.9647, Recall: 0.8504, F1 Score: 0.8238
+Label: Dep - AUC: 0.8967, Hamming Loss: 0.1816, Hamming Score: 0.1429, Precision: 0.9128, Recall: 0.8967, F1 Score: 0.8718
+Label: Per - AUC: 0.9732, Hamming Loss: 0.1430, Hamming Score: 0.1185, Precision: 0.9765, Recall: 0.9732, F1 Score: 0.9618
+              precision    recall  f1-score   support
+
+         Usa       0.81      0.61      0.70       780
+         Sup       0.87      0.44      0.59       335
+         Dep       0.85      0.68      0.76       702
+         Per       0.97      0.87      0.92       566
+
+   micro avg       0.88      0.67      0.76      2383
+   macro avg       0.88      0.65      0.74      2383
+weighted avg       0.87      0.67      0.75      2383
+ samples avg       0.34      0.32      0.32      2383
+
+Label: Usa - AUC: 0.7699, Hamming Loss: 0.2201, Hamming Score: 0.1266, Precision: 0.8546, Recall: 0.7699, F1 Score: 0.7545
+Label: Sup - AUC: 0.8362, Hamming Loss: 0.1498, Hamming Score: 0.0598, Precision: 0.9616, Recall: 0.8362, F1 Score: 0.7819
+Label: Dep - AUC: 0.8058, Hamming Loss: 0.1878, Hamming Score: 0.1186, Precision: 0.8994, Recall: 0.8058, F1 Score: 0.8076
+Label: Per - AUC: 0.9824, Hamming Loss: 0.1381, Hamming Score: 0.1186, Precision: 0.9747, Recall: 0.9824, F1 Score: 0.9638
+              precision    recall  f1-score   support
+
+         Usa       0.62      0.55      0.58       338
+         Sup       0.90      0.35      0.50       158
+         Dep       0.86      0.48      0.61       331
+         Per       0.97      0.81      0.88       239
+
+   micro avg       0.80      0.56      0.66      1066
+   macro avg       0.84      0.55      0.65      1066
+weighted avg       0.82      0.56      0.65      1066
+ samples avg       0.29      0.27      0.28      1066
+
+
+Epoch: 3 -  loss: 0.2597 - accuracy: 0.9484 - auc: 0.8978 - precision: 0.9102 - recall: 0.9459 - hamming_score: 0.3503 - hamming_loss: 0.1213 - f1: 0.7788 - jac: 0.6487 - valid_loss: 0.2250 - valid_accuracy: 0.9236 - valid_auc: 0.8478 - valid_precision: 0.8776 - valid_recall: 0.8065 - valid_hamming_score: 0.3085 - valid_hamming_loss: 0.1197 - valid_f1: 0.6995 - valid_jac: 0.5588 
+
+Epoch 3: valid_loss improved from 0.25690 to 0.22498
+Configuration saved in pybert/output/checkpoints/bert/config.json
+Model weights saved in pybert/output/checkpoints/bert/pytorch_model.bin
+Epoch 4/6
+Label: Usa - AUC: 0.9050, Hamming Loss: 0.1574, Hamming Score: 0.1580, Precision: 0.9459, Recall: 0.9050, F1 Score: 0.9016
+Label: Sup - AUC: 0.8870, Hamming Loss: 0.1360, Hamming Score: 0.0643, Precision: 0.9704, Recall: 0.8870, F1 Score: 0.8729
+Label: Dep - AUC: 0.9305, Hamming Loss: 0.1555, Hamming Score: 0.1437, Precision: 0.9500, Recall: 0.9305, F1 Score: 0.9111
+Label: Per - AUC: 0.9925, Hamming Loss: 0.1262, Hamming Score: 0.1206, Precision: 0.9882, Recall: 0.9925, F1 Score: 0.9851
+              precision    recall  f1-score   support
+
+         Usa       0.91      0.75      0.82       780
+         Sup       0.91      0.61      0.73       335
+         Dep       0.91      0.78      0.84       702
+         Per       0.98      0.95      0.97       566
+
+   micro avg       0.93      0.78      0.85      2383
+   macro avg       0.93      0.77      0.84      2383
+weighted avg       0.93      0.78      0.85      2383
+ samples avg       0.39      0.37      0.38      2383
+
+Label: Usa - AUC: 0.7946, Hamming Loss: 0.2038, Hamming Score: 0.1266, Precision: 0.8218, Recall: 0.7946, F1 Score: 0.7780
+Label: Sup - AUC: 0.8353, Hamming Loss: 0.1456, Hamming Score: 0.0588, Precision: 0.9314, Recall: 0.8353, F1 Score: 0.8055
+Label: Dep - AUC: 0.8495, Hamming Loss: 0.1778, Hamming Score: 0.1300, Precision: 0.8947, Recall: 0.8495, F1 Score: 0.8305
+Label: Per - AUC: 0.9878, Hamming Loss: 0.1236, Hamming Score: 0.1186, Precision: 0.9848, Recall: 0.9878, F1 Score: 0.9811
+              precision    recall  f1-score   support
+
+         Usa       0.68      0.58      0.62       338
+         Sup       0.80      0.43      0.56       158
+         Dep       0.82      0.60      0.69       331
+         Per       0.97      0.95      0.96       239
+
+   micro avg       0.81      0.64      0.72      1066
+   macro avg       0.82      0.64      0.71      1066
+weighted avg       0.81      0.64      0.71      1066
+ samples avg       0.34      0.32      0.32      1066
+
+
+Epoch: 4 -  loss: 0.2306 - accuracy: 0.9659 - auc: 0.9306 - precision: 0.9659 - recall: 0.9510 - hamming_score: 0.3891 - hamming_loss: 0.0949 - f1: 0.8552 - jac: 0.7551 - valid_loss: 0.2040 - valid_accuracy: 0.9332 - valid_auc: 0.8672 - valid_precision: 0.8554 - valid_recall: 0.8207 - valid_hamming_score: 0.3359 - valid_hamming_loss: 0.1102 - valid_f1: 0.7298 - valid_jac: 0.5944 
+
+Epoch 4: valid_loss improved from 0.22498 to 0.20403
+Configuration saved in pybert/output/checkpoints/bert/config.json
+Model weights saved in pybert/output/checkpoints/bert/pytorch_model.bin
+Epoch 5/6
+Label: Usa - AUC: 0.9374, Hamming Loss: 0.1337, Hamming Score: 0.1584, Precision: 0.9694, Recall: 0.9374, F1 Score: 0.9332
+Label: Sup - AUC: 0.9322, Hamming Loss: 0.1239, Hamming Score: 0.0671, Precision: 0.9765, Recall: 0.9322, F1 Score: 0.9117
+Label: Dep - AUC: 0.9546, Hamming Loss: 0.1379, Hamming Score: 0.1439, Precision: 0.9613, Recall: 0.9546, F1 Score: 0.9403
+Label: Per - AUC: 0.9959, Hamming Loss: 0.1168, Hamming Score: 0.1209, Precision: 0.9936, Recall: 0.9959, F1 Score: 0.9914
+              precision    recall  f1-score   support
+
+         Usa       0.95      0.81      0.88       780
+         Sup       0.94      0.71      0.81       335
+         Dep       0.94      0.83      0.88       702
+         Per       0.99      0.98      0.98       566
+
+   micro avg       0.96      0.85      0.90      2383
+   macro avg       0.96      0.84      0.89      2383
+weighted avg       0.96      0.85      0.90      2383
+ samples avg       0.42      0.40      0.40      2383
+
+Label: Usa - AUC: 0.8062, Hamming Loss: 0.2029, Hamming Score: 0.1281, Precision: 0.8279, Recall: 0.8062, F1 Score: 0.7701
+Label: Sup - AUC: 0.8202, Hamming Loss: 0.1445, Hamming Score: 0.0548, Precision: 0.9235, Recall: 0.8202, F1 Score: 0.8042
+Label: Dep - AUC: 0.8618, Hamming Loss: 0.1752, Hamming Score: 0.1310, Precision: 0.8813, Recall: 0.8618, F1 Score: 0.8470
+Label: Per - AUC: 0.9900, Hamming Loss: 0.1224, Hamming Score: 0.1191, Precision: 0.9822, Recall: 0.9900, F1 Score: 0.9813
+              precision    recall  f1-score   support
+
+         Usa       0.66      0.57      0.61       338
+         Sup       0.78      0.47      0.58       158
+         Dep       0.80      0.60      0.68       331
+         Per       0.95      0.99      0.97       239
+
+   micro avg       0.79      0.66      0.72      1066
+   macro avg       0.80      0.65      0.71      1066
+weighted avg       0.78      0.66      0.71      1066
+ samples avg       0.34      0.32      0.33      1066
+
+
+Epoch: 5 -  loss: 0.2127 - accuracy: 0.9766 - auc: 0.9513 - precision: 0.9883 - recall: 0.9622 - hamming_score: 0.4122 - hamming_loss: 0.0795 - f1: 0.9027 - jac: 0.8267 - valid_loss: 0.2013 - valid_accuracy: 0.9326 - valid_auc: 0.8699 - valid_precision: 0.8502 - valid_recall: 0.8128 - valid_hamming_score: 0.3437 - valid_hamming_loss: 0.1073 - valid_f1: 0.7323 - valid_jac: 0.5960 
+
+Epoch 5: valid_loss improved from 0.20403 to 0.20130
+Configuration saved in pybert/output/checkpoints/bert/config.json
+Model weights saved in pybert/output/checkpoints/bert/pytorch_model.bin
+Epoch 6/6
+Label: Usa - AUC: 0.9554, Hamming Loss: 0.1195, Hamming Score: 0.1593, Precision: 0.9745, Recall: 0.9554, F1 Score: 0.9584
+Label: Sup - AUC: 0.9475, Hamming Loss: 0.1178, Hamming Score: 0.0671, Precision: 0.9849, Recall: 0.9475, F1 Score: 0.9241
+Label: Dep - AUC: 0.9609, Hamming Loss: 0.1271, Hamming Score: 0.1441, Precision: 0.9719, Recall: 0.9609, F1 Score: 0.9553
+Label: Per - AUC: 0.9954, Hamming Loss: 0.1154, Hamming Score: 0.1209, Precision: 0.9943, Recall: 0.9954, F1 Score: 0.9925
+              precision    recall  f1-score   support
+
+         Usa       0.97      0.86      0.91       780
+         Sup       0.96      0.75      0.84       335
+         Dep       0.95      0.88      0.92       702
+         Per       0.99      0.98      0.99       566
+
+   micro avg       0.97      0.88      0.92      2383
+   macro avg       0.97      0.87      0.91      2383
+weighted avg       0.97      0.88      0.92      2383
+ samples avg       0.43      0.41      0.42      2383
+
+Label: Usa - AUC: 0.8083, Hamming Loss: 0.2007, Hamming Score: 0.1281, Precision: 0.8435, Recall: 0.8083, F1 Score: 0.7761
+Label: Sup - AUC: 0.8405, Hamming Loss: 0.1478, Hamming Score: 0.0598, Precision: 0.9018, Recall: 0.8405, F1 Score: 0.7892
+Label: Dep - AUC: 0.8649, Hamming Loss: 0.1720, Hamming Score: 0.1340, Precision: 0.8726, Recall: 0.8649, F1 Score: 0.8505
+Label: Per - AUC: 0.9884, Hamming Loss: 0.1259, Hamming Score: 0.1191, Precision: 0.9834, Recall: 0.9884, F1 Score: 0.9834
+              precision    recall  f1-score   support
+
+         Usa       0.65      0.58      0.61       338
+         Sup       0.74      0.51      0.60       158
+         Dep       0.80      0.66      0.72       331
+         Per       0.91      0.99      0.95       239
+
+   micro avg       0.77      0.69      0.73      1066
+   macro avg       0.77      0.68      0.72      1066
+weighted avg       0.77      0.69      0.72      1066
+ samples avg       0.36      0.34      0.34      1066
+
+
+Epoch: 6 -  loss: 0.2034 - accuracy: 0.9833 - auc: 0.9632 - precision: 0.9939 - recall: 0.9638 - hamming_score: 0.4221 - hamming_loss: 0.0711 - f1: 0.9256 - jac: 0.8647 - valid_loss: 0.1987 - valid_accuracy: 0.9334 - valid_auc: 0.8773 - valid_precision: 0.8299 - valid_recall: 0.8331 - valid_hamming_score: 0.3527 - valid_hamming_loss: 0.1086 - valid_f1: 0.7331 - valid_jac: 0.5971 
+
+Epoch 6: valid_loss improved from 0.20130 to 0.19875
+Configuration saved in pybert/output/checkpoints/bert/config.json
+Model weights saved in pybert/output/checkpoints/bert/pytorch_model.bin
