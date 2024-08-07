@@ -1,5 +1,6 @@
 # NRMLC-BT
-一种使用改进的BERT模型进行非功能需求多标签分类的方法（A Method for Classifying Multi-Label Non-functional Requirements in Mobile App Reviews)
+利用基于迁移学习的 BERT-TextCNN 对 NFR 进行多标签分类（Multi-label Classification of NFR
+with Transfer Learning-Based BERT-TextCNN)
 
 ## 运行说明(Running Instructions)：
 1.To run the project, you first need to download pytorch_model.bin, config.json, vocab.txt.json. in [Bert - base] (https://huggingface.co/google-bert/bert-base-uncased/tree/main).
