@@ -1,4 +1,4 @@
-# GTA-BERT
+# NRMLC-BT
 一种使用改进的BERT模型进行非功能需求多标签分类的方法（A Method for Classifying Multi-Label Non-functional Requirements in Mobile App Reviews)
 
 ## 运行说明(Running Instructions)：
