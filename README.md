@@ -33,5 +33,7 @@ This is the official implementation of the paper "Learning in Imperfect Environm
 
 ## 🪐 Other Instructions：
 1. We used the Llama_Factory framework to fine-tune the Deepseek-R1-14B and Llama-3.1-8B models on the emse dataset in Alpaca format.
+
 2. This repo benefits from [LLaMA-Factory](https://github.com/hiyouga/LLaMA-Factory). Thanks for their wonderful works.
+  
 3. We will continuing to update.
