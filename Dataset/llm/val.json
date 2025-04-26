@@ -1,0 +1,640 @@
+[
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product will function alongside server software on any operating system where the Java runtime can be installed.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Brio will provide buttons in the user interface that produce or export reports in xls or .123 file formats.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "2 out of 3 Program Administrators or Nursing Staff Members shall successfully be able to use the system to manage the scheduling of classes and clinicals.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "All actions that modify an existing dispute case must be recorded in the case history.",
+    "output": "{\"classification\": [\"Sup\"]}",
+    "label": [
+      "Sup"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "System shall let administrator de-activate a customer account in under 1 minute.",
+    "output": "{\"classification\": [\"Mis\", \"Usa\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Usa",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall have high availability every day of the year.",
+    "output": "{\"classification\": [\"Rel\"]}",
+    "label": [
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall provide charts for the Activity or Event actual versus assumed time.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Website shall allow the Izogn administrator to approve a review posted by a customer.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The save shall occur within 5 seconds.",
+    "output": "{\"classification\": [\"Per\"]}",
+    "label": [
+      "Per"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall be easy to use by callers and supervisors.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The website shall achieve 99.5% up time.",
+    "output": "{\"classification\": [\"Rel\"]}",
+    "label": [
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall be easy for a realtor to learn.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall able to handle a large number of games simultaneously.",
+    "output": "{\"classification\": [\"Per\"]}",
+    "label": [
+      "Per"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product must be able to interface with various database management systems.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall be internet browser independent.",
+    "output": "{\"classification\": [\"Sup\"]}",
+    "label": [
+      "Sup"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The three types of ticket retrieval requests are (1) Request for original receipt (2) Request for a copy of the receipt or (3) Request for a portfolio.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "All aspects of the website shall be accessed by a web browser over the Internet.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Callers and supervisors shall learn how to use the system within 10 minutes.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "All authorized users  once authenticated must be able to logon to the Disputes System",
+    "output": "{\"classification\": [\"Rel\"]}",
+    "label": [
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product must make use of web or application server technology.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Users must be authenticated using their IBM intranet user name and password.",
+    "output": "{\"classification\": [\"Rel\"]}",
+    "label": [
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The Disputes application must conform to the legal requirements as specified by Regulation E and Regulation Z that govern credit card disputes processing.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product will display an available status for unreserved conference rooms.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall be easy to use by Adjusters and Collision Estimators.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product is expected to integrate with multiple database management systems.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The leads washing functionality shall receive a period list of available reps from the enterprise system.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product must be able to interface with various email servers.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall help the user avoid making mistakes while scheduling classes and clinicals for the nursing students.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall be available for use between the hours of 8am and 6pm.",
+    "output": "{\"classification\": [\"Rel\"]}",
+    "label": [
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "90% of users will be able to successfully reserve a conference room within 5 minutes of product use.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The response time shall be fast enough to maintain the flow of the game.",
+    "output": "{\"classification\": [\"Per\"]}",
+    "label": [
+      "Per"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The Disputes System shall accurately provide a list of possible reason codes for a given transaction.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "A non-clinical class shall specify the course name  lecture room requirements  and instructor needs.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Any interface between a user and the automated system shall have a maximum response time of 5 seconds  unless noted by an exception below.",
+    "output": "{\"classification\": [\"Per\"]}",
+    "label": [
+      "Per"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product must be able to interface with any HTML browser.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The Disputes System will facilitate direct data entry of a dispute case via a user interface that supports real time responses to the users.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The estimator shall not apply recycled parts to the collision estimate if no available parts are returned.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Students added to a cohort shall be eligible for the cohort’s Program of Study.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall display clear property images in the search results",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "For leads that process longer than 25 seconds the system will record the event and duration",
+    "output": "{\"classification\": [\"Sup\", \"Per\"]}",
+    "label": [
+      "Sup",
+      "Per"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The list of cases must differentiate the type possibly and possibly status of the case by color -coding the line item in the list.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The Disputes System must allow the user to create three unique types of ticket retrieval requests.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "All customer information will be stored on a secure database  accessible only to authorized personnel.",
+    "output": "{\"classification\": [\"Rel\"]}",
+    "label": [
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall comply with the estimatics laws relating to recycled parts usage.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall allow a player to position ships horizontally on their grid.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "For each turn  the product shall allow the offensive player to define a shot.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Each page shall contain a navigation menu which shows the index into which the current page is contained.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The remaining 5% will be corrected within a week of notification of the incorrect display.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The adjuster shall be able to override the preferred repair facitlity on the estimate assignment.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Product shall allow entering  storing and modifying product menus used by POS terminals.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "One insurance company shall not be able to view another insurance companys claim data.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall be able to display a printable summary for individual clinical sites  which will include information on labs being held at that site for the given quarter (Clinical site  general information on labs held at that location  dates and times of all labs held there).",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall end a game when a hit by the offensive player results in sinking the last of the defensive player’s ships  which had not been previously marked as sunk.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall offer the ability to pause and resume the refresh of data.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The list of dispute cases that are displayed after a search is performed must be color coded for easy identification of dispute cases based upon the dispute case status.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "After informally navigating the product for less than 15 minutes  users shall be able to successfully setup meetings and reserve conference rooms.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Each page shall contain a similar format with action items in one location and navigation buttons in a different location.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "Movies shall be encoded and streamed via Windows Media Player 9.0.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The website will allow customers to search for movies by title  actor  or director.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The response time of the product interface should not exceed 2 seconds 90% of the time.",
+    "output": "{\"classification\": [\"Per\"]}",
+    "label": [
+      "Per"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The streaming server will have anti-virus software to prevent infection of malicious viruses.",
+    "output": "{\"classification\": [\"Rel\"]}",
+    "label": [
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "IzognMovies shall meet the licensing requirements set forth by the appropriate organizations in order to stream African movies.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "viewing a movie details  the website will display the movies description  actor  and director entered in by the administrator.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "A portfolio consists of documentation that would provide proof of a purchase such as the documentation that is received from a car rental agency that is more than a sales receipt.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The Disputes System must provide a confirmation to the user upon the creation of ticket retrieval request that contains the following information; the dispute case number  the type of retrieval requested (copy  original or portfolio)  and the date that the merchant response is due.",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system must use a point and click interface.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "7 data files shall be received from the BDW and loaded into the RFS system within 3 hours one day prior to the start of budgeting process  every year.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall notify the realtor when a seller or buyer responds to an appointment request",
+    "output": "{\"classification\": [\"Mis\", \"Rel\"]}",
+    "label": [
+      "Mis",
+      "Rel"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The website should use animation on pages which are describing the services  to grab the users attention and encourage them to sign up.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall allow for customization of start page and views preferences.",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall allow a real estate agent to query MLS information",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The user shall search for the preferred repair facility using vehicle  vehicle location  and radius in miles",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The system shall cater to 10 simultaneous users from 9am to 5pm.",
+    "output": "{\"classification\": [\"Per\"]}",
+    "label": [
+      "Per"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The washing process must use a non binding  neutral data format  such as xml  when receiving and processing lead data.",
+    "output": "{\"classification\": [\"Sup\"]}",
+    "label": [
+      "Sup"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The website will use standard Internet conventions when interacting with the user.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall be used in office environments.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The product shall be intuitive and self-explanatory.",
+    "output": "{\"classification\": [\"Usa\"]}",
+    "label": [
+      "Usa"
+    ]
+  },
+  {
+    "instruction": "The following is a piece of requirement text, please analyze its content belongs to which kind of non-functional requirements, only in json format to output the results of your judgment (classification:).",
+    "input": "The notification of the game ending will include the reason the game is ended (i.e.  a player has won the game or a player has ended the game).",
+    "output": "{\"classification\": [\"Mis\"]}",
+    "label": [
+      "Mis"
+    ]
+  }
+]
