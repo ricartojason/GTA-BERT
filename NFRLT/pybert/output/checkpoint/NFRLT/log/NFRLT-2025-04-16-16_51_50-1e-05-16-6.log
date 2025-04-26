@@ -1,0 +1,107 @@
+04/16/2025 16:51:50 - INFO - root -   Training/evaluation parameters Namespace(adam_epsilon=1e-08, arch='NFRLT', data_name='emse', do_data=False, do_lower_case=True, do_test=True, do_train=False, epochs=6, eval_batch_size=16, eval_max_seq_len=128, fp16=False, fp16_opt_level='O1', grad_clip=1.0, gradient_accumulation_steps=1, learning_rate=1e-05, local_rank=-1, loss_scale=0, mode='min', monitor='valid_loss', n_gpu='0', predict_checkpoints=0, resume_path='', save_best=False, seed=42, sorted=1, train_batch_size=16, train_max_seq_len=128, train_size=0.8, warmup_proportion=0.1, weight_decay=0.01)
+04/16/2025 16:51:51 - INFO - root -   加载测试数据: pybert\dataset\emse.test.pkl
+04/16/2025 16:51:51 - INFO - root -   Loading test data from file: pybert\dataset\emse.test.pkl
+04/16/2025 16:51:51 - INFO - root -   Loading examples from cached file pybert\dataset\cached_test_examples_NFRLT
+04/16/2025 16:51:51 - INFO - root -   Loading features from cached file pybert\dataset\cached_test_features_128_NFRLT
+04/16/2025 16:51:51 - INFO - root -   加载模型: C:\Users\wyf\Desktop\research\GPT-BERT\GPT-BERT-final\pybert\output\checkpoints\NFRLT\NFRLT-2025-04-16-16_46_49-1e-05-16-6
+04/16/2025 16:51:51 - INFO - transformers.configuration_utils -   loading configuration file C:\Users\wyf\Desktop\research\GPT-BERT\GPT-BERT-final\pybert\output\checkpoints\NFRLT\NFRLT-2025-04-16-16_46_49-1e-05-16-6\config.json
+04/16/2025 16:51:51 - INFO - transformers.configuration_utils -   Model config BertConfig {
+  "architectures": [
+    "BertForMultiLable"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "bos_token_id": null,
+  "do_sample": false,
+  "eos_token_ids": null,
+  "finetuning_task": null,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "is_decoder": false,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1
+  },
+  "layer_norm_eps": 1e-12,
+  "length_penalty": 1.0,
+  "max_length": 20,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_beams": 1,
+  "num_hidden_layers": 12,
+  "num_labels": 4,
+  "num_return_sequences": 1,
+  "output_attentions": false,
+  "output_hidden_states": false,
+  "output_past": true,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "pruned_heads": {},
+  "repetition_penalty": 1.0,
+  "temperature": 1.0,
+  "top_k": 50,
+  "top_p": 1.0,
+  "torchscript": false,
+  "transformers_version": "4.6.0.dev0",
+  "type_vocab_size": 2,
+  "use_bfloat16": false,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+
+04/16/2025 16:51:51 - INFO - transformers.modeling_utils -   loading weights file C:\Users\wyf\Desktop\research\GPT-BERT\GPT-BERT-final\pybert\output\checkpoints\NFRLT\NFRLT-2025-04-16-16_46_49-1e-05-16-6\pytorch_model.bin
+04/16/2025 16:51:52 - INFO - root -   模型加载成功
+04/16/2025 16:51:52 - INFO - root -   模型结构: bert, dropout, text_cnn
+04/16/2025 16:51:52 - INFO - root -   开始预测...
+04/16/2025 16:51:54 - INFO - root -   Label Usa:
+  Precision=0.6994
+  Recall=0.5969
+  F1-Score=0.6441
+04/16/2025 16:51:54 - INFO - root -   Label Sup:
+  Precision=0.7963
+  Recall=0.7350
+  F1-Score=0.7644
+04/16/2025 16:51:54 - INFO - root -   Label Dep:
+  Precision=0.7029
+  Recall=0.5988
+  F1-Score=0.6467
+04/16/2025 16:51:54 - INFO - root -   Label Per:
+  Precision=0.9100
+  Recall=0.9891
+  F1-Score=0.9479
+04/16/2025 16:51:54 - INFO - root -   Overall Metrics:
+  Hamming Loss: 0.0827
+  Hamming Score: 0.9173
+  Jaccard Score: 0.6181
+04/16/2025 16:51:54 - INFO - root -   
+分类报告: 
+              precision    recall  f1-score   support
+
+         Usa       0.70      0.60      0.64       191
+         Sup       0.80      0.74      0.76       117
+         Dep       0.70      0.60      0.65       162
+         Per       0.91      0.99      0.95        92
+
+   micro avg       0.76      0.69      0.72       562
+   macro avg       0.78      0.73      0.75       562
+weighted avg       0.76      0.69      0.72       562
+ samples avg       0.42      0.40      0.40       562
+
+04/16/2025 16:51:54 - INFO - root -   
+Test: test_f1: 0.7508 - test_precision: 0.7771 - test_recall: 0.7299 - test_hamming_score: 0.9173 - test_hamming_loss: 0.0827 - test_jaccard: 0.6181 
+04/16/2025 16:51:54 - INFO - root -   
+测试结果摘要:
+04/16/2025 16:51:54 - INFO - root -   test_f1: 0.7508
+04/16/2025 16:51:54 - INFO - root -   test_precision: 0.7771
+04/16/2025 16:51:54 - INFO - root -   test_recall: 0.7299
+04/16/2025 16:51:54 - INFO - root -   test_hamming_score: 0.9173
+04/16/2025 16:51:54 - INFO - root -   test_hamming_loss: 0.0827
+04/16/2025 16:51:54 - INFO - root -   test_jaccard: 0.6181
