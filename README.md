@@ -2,30 +2,30 @@
 This is the official implementation of the paper "Learning in Imperfect Environments: Multi-Label Classification of Non-Functional Requirements under Long-Tailed Distribution."
 
 ## 🚀 Running Instructions：
-1.To run the project, you first need to download pytorch_model.bin, config.json, vocab.txt.json. in [Bert - base] (https://huggingface.co/google-bert/bert-base-uncased/tree/main).
+1. To run the project, you first need to download pytorch_model.bin, config.json, vocab.txt.json. in [Bert - base] (https://huggingface.co/google-bert/bert-base-uncased/tree/main).
 
-2.Place `model` ,`config` and `vocab` file into  the `/pybert/pretrain/bert/base-uncased` directory.
+2. Place `model` ,`config` and `vocab` file into  the `/pybert/pretrain/bert/base-uncased` directory.
 
-3.Download dataset in this github(https://github.com/ricartojason/GTA-BERT/tree/main/Dataset) and place in `pybert/dataset`.
+3. Download dataset in this github(https://github.com/ricartojason/GTA-BERT/tree/main/Dataset) and place in `pybert/dataset`.
 
-4./configs/basic_config is used to change the model parameters and the path where the dataset is stored
+4. /configs/basic_config is used to change the model parameters and the path where the dataset is stored
 
-5./output/log is used to store model parameters and train/test results during model training
+5. /output/log is used to store model parameters and train/test results during model training
 
-6./output/figure is used to store the changes of evaluation indexes during training and validation
+6. /output/figure is used to store the changes of evaluation indexes during training and validation
 
-7.Run 'python run bert.py --do data' to process the data
+7. Run 'python run bert.py --do data' to process the data
 
-8.Run 'python run_bert.py --do_train --save_best --do_lower_case' to train, validate, and fine-tune the model
+8. Run 'python run_bert.py --do_train --save_best --do_lower_case' to train, validate, and fine-tune the model
 
-9.Run 'python run_bert.py --do_test --do_lower_case' to evaluate the performance on the test set
+9. Run 'python run_bert.py --do_test --do_lower_case' to evaluate the performance on the test set
 
-10.To run TTA, set the is_augament parameter of the data.read_data() function to True in run_bert.py.
+10. To run TTA, set the is_augament parameter of the data.read_data() function to True in run_bert.py.
 
 ## 📊 Description of Dataset：
 1. The preprocessed EMSE dataset used for Deep learning and Machine Learning is stored in the "\Dataset" folder called emse.csv.  
 
-2. We restructure the EMSE dataset to ensure its compatibility with LLMs. The dataset has been processed in Alpaca format used for the LLM and stored in the "\Dataset\llm" folder. 
+2. We restructure the EMSE dataset to ensure its compatibility with LLMs. The dataset has been processed in Alpaca format, used for the LLM and stored in the "\Dataset\llm" folder. 
 
 3. The original dataset is provided by Jha and Mahmoud. The data can be obtained from the following link: http://seel.cse.lsu.edu/data/emse19.zip.
 
